@@ -7,6 +7,7 @@ public class Piece {
 
     public Piece(Position position, Board board) {
         this.board = board;
+        position = null;
     }
 
     protected Board getBoard() {
